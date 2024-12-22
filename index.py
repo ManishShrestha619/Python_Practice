@@ -7,8 +7,8 @@ print(list2)
 for i in list1:
     print(i)
 
-def myfun(fname):
-    print(f"My name is {fname}")
+def myfun(fname, lname):
+    print(f"My name is {fname} {lname}")
 
-myfun("John Doe")    
+myfun("John Doe","Orten")    
 
